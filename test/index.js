@@ -3,6 +3,6 @@ import shapUc from '../lib';
 
 describe('shap-uc', function () {
   it('should have unit test!', function () {
-    assert(false, 'we expected this package author to add actual unit tests.');
+    assert(typeof shapes.VERSION !== 'undefined', 'The Project should have a VERSION, whatever the actual version.');
   });
 });
