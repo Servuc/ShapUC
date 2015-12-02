@@ -19,7 +19,7 @@ shapUc('Rainbow');
 Apache-2.0 © [Thomas Servuc](http://servuc.github.io)
 
 
-[npm-image]: https://badge.fury.io/js/shapUc.svg
+[npm-image]: https://badge.fury.io/js/shap-uc.svg
 [npm-url]: https://npmjs.org/package/shap-uc
 [travis-image]: https://travis-ci.org/Servuc/ShapUC.svg?branch=master
 [travis-url]: https://travis-ci.org/Servuc/ShapUC
