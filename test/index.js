@@ -104,6 +104,24 @@ describe('shap-uc', function () {
     shape0.should.to.be.an('object', 'The "createShape" function sould return objects.');
   });
 
+  it('Empty object', function()
+  {
+    var shape0 = shapUc.createShape();
+    shape0.should.to.be.an('object', 'The "createShape" function sould be create without argument.');
+
+    var road = shapUc.createRoad();
+    road.should.to.be.an('object', 'The "createRoad" function sould be create without argument.');
+
+    var amenity = shapUc.createAmenity();
+    amenity.should.to.be.an('object', 'The "createAmenity" function sould be create without argument.');
+
+    var building = shapUc.createBuilding();
+    building.should.to.be.an('object', 'The "createBuilding" function sould be create without argument.');
+
+    var natural = shapUc.createNatural();
+    natural.should.to.be.an('object', 'The "createNatural" function sould be create without argument.');
+  });
+
   it('Test proper hidding of properties', function()
   {
     var shape0 = shapUc.createShape(myDatas.roadAttr);
